@@ -5,7 +5,7 @@ class PippocoTea {
   
     setTeaData(key, value) {
       this.teaData[key] = value;
-      console.log(`Set Pippoco Tea data for key '${key}':`, value);
+      console.log(`Set Pippoco Tea data for key'${key}':`, value);
     }
   
     getTeaData(key) {
